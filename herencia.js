@@ -22,4 +22,4 @@ class Profesor extends Persona {
     }
 }
 const instancia1 = new Profesor('Carlos', 'Astorga', 'Chilena', '21', 'Masculino');
-console.log(instancia1)
+console.log(instancia1.invitar());
